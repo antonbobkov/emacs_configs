@@ -1,0 +1,7 @@
+;; jedi
+(use-package jedi
+  :ensure t
+  :config
+  (add-hook 'python-mode-hook 'jedi:setup)
+  (setq jedi:complete-on-dot t)
+)
