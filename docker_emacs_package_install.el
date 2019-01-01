@@ -17,4 +17,4 @@
             (package-install package)))
 
         ; list of packages to be installed
-        '(company))
+        '(company use-package))
