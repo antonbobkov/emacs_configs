@@ -25,5 +25,8 @@
 ;; auto reload modified files
 (global-auto-revert-mode 1)
 
+;; auto mouse in terminal mode
+
+(xterm-mouse-mode 1)
 
 ;; hi
